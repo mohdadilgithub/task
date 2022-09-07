@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <table id="Bigtable">
+        <tr>
+            <td  id="firstTD">
+                <form onsubmit="event.preventDefault(); onFormSubmit(); return FindError()"  autocomplete="off" id="Inerform">
+                    <div>
+                        <label>Full Name</label>
+                        <input type="text" name="fullname" required placeholder="Enter your Full Name" id="fullname">
+                    </div>
+                    <div>
+                        <label>Date of Birth</label>
+                        <input type="character" name="empcode" required placeholder="Enter your Date of Birth" id="empcode">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="salary" required placeholder="Enter your email ID" id="salary">
+                    </div>
+                    <div>
+                        <label>Phone</label>
+                        <input type='phone' name="city" required placeholder="Enter your Phone Number" id="city">
+                    </div>
+                    <div>
+                        <button type="submit" value="Submit" id="btn">Submit</button>
+                    </div>
+                </form>
+                <h3>Validation</h3>
+                <ol class="outerlist">
+                    <li>Name should be in 5 character</li>
+                    <li>DoB Before 20 year</li>
+                    <li>Email ID would be always google domain</li>
+                    <li>Phone number alway 10 digit</li>
+                </ol>
+            </td>
+            <td></td>
+            <td id="secondTd">
+                <h1>Users</h1>
+                <table class="list" id="employlist">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Date of Birth</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

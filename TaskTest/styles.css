@@ -1,0 +1,88 @@
+#Bigtable{
+    text-align: center;
+    justify-content: center;
+
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td,th{
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 20px;
+    font-size: 23px;
+    /* background-color: #fff; */
+
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #b9cbcc;
+}
+tr:nth-child(even)table.list thead>tr:hover {
+    background-color: #dae9ea;
+    transition: scale(1.5px 1.5px);
+}
+input[type=text], input[type=phone], input[type=email], input[type=character]{
+    width: 100%;
+    padding: 6px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 40%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 2px 0;
+    border-radius: 4px;
+    cursor:pointer;
+    font-size: 23px;
+}
+.outerlist{
+    /* padding: 9px; */
+    margin-left: 15px;
+    /* text-align: center; */
+}
+.outerlist li{
+    padding: 5px;
+    font-size: 17px;
+}
+#firstTD{
+    background-color: rgb(238, 215, 215);
+    border-radius: 32px;
+}
+#Bigtable #secondTD{
+    background-color: rgb(238, 215, 215);
+    border-radius: 32px;
+}
+body{
+    background-color:rgb(249, 242, 233);
+    font-size: large;
+    /* border-radius: 32px; */
+}
+#btn{
+    font-size: 18px;
+    background-color:rgb(166, 162, 162);
+    border-radius: 6px;
+    /* padding: 12px; */
+    box-shadow: 4px 5px 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 4px;
+    float: right;
+
+}
+#tbody{
+    border-radius: 18px;
+}
+#employlist{
+    margin: 0;
+    border-radius: 18px;
+    /* margin-bottom: 250px; */
+
+}
